@@ -21,9 +21,6 @@ b {
     color: #646464;
 }
 
-
-
-
 table {
   width: 620px;
   font-size: 10px;
@@ -92,11 +89,6 @@ a:visited {
 .mainBanner {
     width: 620px;
     height: 130px;
-    padding-top: none !important;
-    padding-bottom: none !important;
-    padding-left: none !important;
-    padding-right: none !important;
-    margin: none !important;
 }
 
 .upLogin {
@@ -106,9 +98,6 @@ a:visited {
 .loginAmex {
     width: 480px;
     padding-left: 70px;
-    margin: none !important;
-    padding-top: none !important;
-    padding-bottom: none !important;
 }
 
 .fontBanner {
@@ -125,6 +114,11 @@ a:visited {
 
 .leyendAmex {
     width: 620px;
+    position: relative;
+    top: 54px;
+    right: .5px;
+    border-left: gray .5px solid;
+    border-right: gray .5px solid;
 }
 
 .line{
@@ -173,5 +167,4 @@ a:visited {
 
 .paddingMontos {
     padding-top: 15px;
-    
 }
