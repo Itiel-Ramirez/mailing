@@ -115,7 +115,7 @@ a:visited {
 .leyendAmex {
     width: 620px;
     position: relative;
-    top: 54px;
+    top: 10px;
     right: .5px;
     border-left: gray .5px solid;
     border-right: gray .5px solid;
@@ -167,4 +167,30 @@ a:visited {
 
 .paddingMontos {
     padding-top: 15px;
+}
+
+.containerDudas {
+    width: 620px;
+    margin-left: auto;
+	margin-right: auto;
+    border: gray .5px solid;
+    background-color: #67a9e3;
+    color: white;
+    font-size: 18px;
+    font-family: Tahoma;
+}
+
+.phone {
+    width: 45px;
+    position: relative;
+    right: 230px;
+    top: 30px;
+}
+
+.textDudas {
+    padding-left: 110px;
+    text-align: initial;
+    position: relative;
+    left: 0px;
+    bottom: 35px;
 }
