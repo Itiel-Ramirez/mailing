@@ -114,11 +114,6 @@ a:visited {
 
 .leyendAmex {
     width: 620px;
-    position: relative;
-    top: 10px;
-    right: .5px;
-    border-left: gray .5px solid;
-    border-right: gray .5px solid;
 }
 
 .line{
@@ -173,24 +168,34 @@ a:visited {
     width: 620px;
     margin-left: auto;
 	margin-right: auto;
-    border: gray .5px solid;
     background-color: #67a9e3;
     color: white;
-    font-size: 18px;
+    font-size: 19px;
     font-family: Tahoma;
+    border-left: gray .5px solid;
+    border-right: gray .5px solid;
+    padding-bottom: 80px;
 }
 
 .phone {
     width: 45px;
-    position: relative;
-    right: 230px;
-    top: 30px;
+    padding-left: 55px;
 }
 
 .textDudas {
-    padding-left: 110px;
-    text-align: initial;
-    position: relative;
-    left: 0px;
-    bottom: 35px;
+    text-align: justify;
+}
+
+.colTel {
+    width: 110px;
+    float:left;
+}
+
+.colInfo {
+    width:450px;
+    float:left;
+    color: white;
+    font-family: Tahoma;
+    font-size: 16px;
+    padding-top: 5px;
 }
