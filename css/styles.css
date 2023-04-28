@@ -199,3 +199,87 @@ a:visited {
     font-size: 16px;
     padding-top: 5px;
 }
+
+.beneficios {
+    width: 620px;
+    margin-left: auto;
+	margin-right: auto;
+    font-size: 14px;
+    font-family: Tahoma;
+    text-align: center;
+}
+
+.colB1, .colB2, .colB3{
+    padding-left: 11px;
+    width:195px;
+    float:left;
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+.benText {
+    font-weight: 600;
+}
+
+.icons {
+    width: 50px;
+}
+
+.fraseAmex {
+    width: 620px;
+}
+
+.terms {
+    max-width: 620px;
+    min-width: 620px;
+    background-color: whitesmoke;
+    margin-left: auto;
+	margin-right: auto;
+    font-size: 14px;
+    font-family: Tahoma;
+    text-align: left;
+    padding: 1px;
+}
+.terms1 {
+    max-width: 550px;
+    min-width: 550px;
+    background-color: whitesmoke;
+    margin-left: auto;
+	margin-right: auto;
+    font-size: 14px;
+    font-family: Tahoma;
+    text-align: left;
+    padding: 1px;
+}
+
+.terminos {
+    color: black;
+}
+
+.cat {
+    font-weight: bold;
+}
+
+.pay {
+    max-width: 620px;
+    min-width: 620px;
+    background-color: white;
+    margin-left: auto;
+	margin-right: auto;
+    font-size: 14px;
+    font-family: Tahoma;
+    text-align: left;
+    padding: 1px;
+}
+
+.pay1 {
+    max-width: 550px;
+    min-width: 550px;
+    background-color: white;
+    margin-left: auto;
+	margin-right: auto;
+    font-size: 14px;
+    font-family: Tahoma;
+    text-align: left;
+    padding: 1px;
+}
