@@ -80,19 +80,18 @@ a:visited {
     border-top: gray .5px solid;
 }
 
-.paddingBanner {
-    padding-left: none;
-}
-
 .banner {
     width: 620px;
     margin-left: auto;
 	margin-right: auto;
-    border: gray .5px solid;
+    border-left: gray .5px solid;
+    border-right: gray .5px solid;
+    background-color: #006fcf;
 }
 
 .mainBanner {
     width: 620px;
+    height: 130px;
     padding-top: none !important;
     padding-bottom: none !important;
     padding-left: none !important;
@@ -100,15 +99,79 @@ a:visited {
     margin: none !important;
 }
 
-.frameBlue {
-    width: 620px;
-    margin-left: auto;
-	margin-right: auto;
-    border: gray .5px solid;
+.upLogin {
+    font-weight: 600;
 }
 
 .loginAmex {
-    width: 320px;
-    align-items: center;
+    width: 480px;
+    padding-left: 70px;
+    margin: none !important;
+    padding-top: none !important;
+    padding-bottom: none !important;
+}
+
+.fontBanner {
+    color: white;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 100;
+    font-family: Tahoma;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 65px;
+    margin: 1px;
+}
+
+.leyendAmex {
+    width: 620px;
+}
+
+.line{
+    height:10px;
+    width:.5px;
+    border-width:0;
+    color:#000;
+    background-color:#000;
+   }
+
+.contenedor {
     text-align: center;
+    padding-top: 10px;
+}
+   
+.colLeft, .colCenter, .colRight{
+    width:200px;
+    float:left;
+    color: white;
+    font-family: Tahoma;
+    font-size: small;
+}
+
+.link {
+    color: white;
+}
+
+.number {
+    font-weight: 600;
+    font-size: medium;
+}
+
+.colCenter {
+    border-left: white 1.5px solid;
+    border-right: white 1.5px solid;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.montos {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding-top: 65px;
+}
+
+.paddingMontos {
+    padding-top: 15px;
+    
 }
