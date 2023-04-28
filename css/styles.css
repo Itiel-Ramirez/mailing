@@ -1,0 +1,114 @@
+.container {
+    width: 620px;
+    margin-left: auto;
+	margin-right: auto;
+    border: gray .5px solid;
+}
+
+.title {
+    text-align: center;
+    font-size: 16px;
+    font-family: Tahoma;
+    letter-spacing: 2px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #646464;
+}
+
+b {
+    font-family: Tahoma;
+    font-weight: bold;
+    color: #646464;
+}
+
+
+
+
+table {
+  width: 620px;
+  font-size: 10px;
+}
+
+table tbody tr:nth-child(odd) {
+	background: whitesmoke;
+}
+
+table thead {
+  font-size: 18px;
+}
+
+th {
+    text-align: start;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: Tahoma;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.special {
+    padding-right: 20px;
+    text-align: right;
+    font-family: Arial;
+}
+
+.void {
+    padding-top: 1px;
+    padding-bottom: 1px ;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.sizeImgLogo {
+    width: 60px;
+    padding-left: 6px;
+}
+
+.sizeImgText {
+    width: 130px;
+}
+
+.whiteLine {
+    background-color: white;
+    border-top: gray .5px solid;
+}
+
+.paddingBanner {
+    padding-left: none;
+}
+
+.banner {
+    width: 620px;
+    margin-left: auto;
+	margin-right: auto;
+    border: gray .5px solid;
+}
+
+.mainBanner {
+    width: 620px;
+    padding-top: none !important;
+    padding-bottom: none !important;
+    padding-left: none !important;
+    padding-right: none !important;
+    margin: none !important;
+}
+
+.frameBlue {
+    width: 620px;
+    margin-left: auto;
+	margin-right: auto;
+    border: gray .5px solid;
+}
+
+.loginAmex {
+    width: 320px;
+    align-items: center;
+    text-align: center;
+}
