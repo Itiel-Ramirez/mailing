@@ -304,10 +304,58 @@ a:visited {
 @media (max-width: 619.98px) {
     .hide {display: block;}
     .container {display: none;}
+
     .fontBanner {
         font-size: 25PX;
         text-align: center;
         padding-left: 5PX;
+    }
+
+    .colLeft, .colCenter, .colRight {
+        float: none;
+        border: none;
+        padding-top: 20px;
+        padding-left: 220px;
+        font-size: 27px;
+    }
+
+    .number {
+        font-size: 30px;
+    }
+
+    .montos {
+        font-size: 27px;
+    }
+
+    .beneficios {
+        font-size: 23px;
+    }
+
+    .colB1, .colB2, .colB3 {
+        float: none;
+        border: none;
+        padding-top: 20px;
+        padding-left: 220px;
+        font-size: 25px;
+    }
+    .icons {
+        width: 95px;
+    }
+
+    .containerDudas {
+        height: 170px;
+    }
+
+    .textDudas {
+        padding-top: 90px;
+        padding-right: 25px;
+        font-size: 24px;
+    }
+
+    .phone {
+        width: 80px;
+        padding-left: 280px;
+        padding-bottom: 80px;
     }
 }
 
